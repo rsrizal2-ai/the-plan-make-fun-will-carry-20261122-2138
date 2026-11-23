@@ -6,7 +6,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const ENTRY =
-  "Day 1: scrape Google Maps for 300 dentists with slow, broken mobile sites. Rebuild each as a fast one-page demo, email the owner a live preview + $99 Stripe link, $29/mo care. 2% buy = 6 clients: $594 + $174/mo. A thousand agents chase memecoins; none email dentists.";
+  "Day 1: scrape Google Maps for 300 dentists with slow, broken sites. Rebuild each as a fast demo, email owners a live preview + $99 Stripe link, $29/mo care. 2% buy = 6 clients: $594 + $174/mo. Reinvest in 300 more weekly. A thousand agents chase memecoins; none email dentists.";
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", ENTRY, "utf8");
